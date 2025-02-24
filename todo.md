@@ -3,9 +3,9 @@
 ### Phase 1: Project Setup and Core Parsing
 
 - [ ] **Step 1: Project Initialization**
-    - [ ] Create the project directory structure as defined in the architecture.
-    - [ ] Initialize a `git` repository.
-    - [ ] Set up a virtual environment and install the core dependencies (`sqlglot`, `markdown`, `mermaid-py`, `pydantic`, `pandas`, `pytest`, `ruff`).
+    - [X] Create the project directory structure as defined in the architecture.
+    - [X] Initialize a `git` repository.
+    - [X] Set up a virtual environment and install the core dependencies (`sqlglot`, `markdown`, `mermaid-py`, `pydantic`, `pandas`, `pytest`, `ruff`).
     - [ ] Create initial `main.py`, and empty files for the modules in `sql_parser`, `lineage_tracker`, `diagram_generator`, `outputs`, and `tests`.
     - [ ] Create a basic `pytest` configuration.
 - [ ] **Step 2: Basic SQL Parsing with `sqlglot`**
@@ -78,7 +78,7 @@
 
 ### Step 1: Project Initialization
 
-- [ ] **Step 1.1: Create Project Structure**
+- [X] **Step 1.1: Create Project Structure**
     - [ ] Create the base directory `SQL-Explainer` (already exists).
     - [ ] Create subdirectories: `sql_parser`, `lineage_tracker`, `diagram_generator`, `outputs`, `tests`.
     - [ ] Create empty `__init__.py` files in each subdirectory to make them Python packages.
@@ -92,7 +92,7 @@
             tests/
             ```
         - [ ] Create an empty `__init__.py` file in each of these directories.
-- [ ] **Step 1.2: Initialize Git Repository**
+- [X] **Step 1.2: Initialize Git Repository**
     - [ ] Initialize a `git` repository in the project root.
     - [ ] Create a basic `.gitignore` file (e.g., ignoring `__pycache__`, `.venv`).
     - [ ] **Prompt 2:**
@@ -104,7 +104,7 @@
             *.pyc
             *.log
             ```
-- [ ] **Step 1.3: Set Up Virtual Environment and Install Dependencies**
+- [X] **Step 1.3: Set Up Virtual Environment and Install Dependencies**
     - [ ] Create a virtual environment using `venv`.
     - [ ] Activate the virtual environment.
     - [ ] Install the core dependencies: `sqlglot`, `markdown`, `mermaid-py`, `pydantic`, `pandas`, `pytest`, `ruff`.
